@@ -1,4 +1,3 @@
-
 import { ArrowDown, Heart, Users, Zap, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -221,29 +220,33 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl font-light mb-12">联系我们</h2>
-          <div className="space-y-8 mb-12">
-            <p className="text-2xl font-light">
-              让AI有爱，关注生命本身这是我们的使命
-            </p>
-            <p className="text-xl">
-              超级球球，已启动融资、团队招募、首轮测试用户召集
-            </p>
-            <p className="text-lg">
-              如果你也关注AI，关注生命本身
-            </p>
-            <p className="text-lg">
-              无论您是投资人、合作方、想加入我们的伙伴、要体验产品的用户
-            </p>
-            <p className="text-xl font-medium">
-              欢迎与我们链接~
-            </p>
+      <section className="py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-5xl font-light text-center mb-20 text-gray-800">
+            联系我们
+          </h2>
+          <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-3xl p-16 text-center shadow-2xl">
+            <div className="space-y-8 mb-12">
+              <p className="text-2xl font-light">
+                让AI有爱，关注生命本身这是我们的使命
+              </p>
+              <p className="text-xl">
+                超级球球，已启动融资、团队招募、首轮测试用户召集
+              </p>
+              <p className="text-lg">
+                如果你也关注AI，关注生命本身
+              </p>
+              <p className="text-lg">
+                无论您是投资人、合作方、想加入我们的伙伴、要体验产品的用户
+              </p>
+              <p className="text-xl font-medium">
+                欢迎与我们链接~
+              </p>
+            </div>
+            <Button size="lg" variant="secondary" className="text-lg px-8 py-4">
+              立即联系我们
+            </Button>
           </div>
-          <Button size="lg" variant="secondary" className="text-lg px-8 py-4">
-            立即联系我们
-          </Button>
         </div>
       </section>
     </div>;
