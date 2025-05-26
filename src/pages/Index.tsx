@@ -129,8 +129,9 @@ const Index = () => {
               </p>
               </div>
               <div className="space-y-2">
-                <p className="text-xl font-medium text-purple-600">醍醐灌顶的毛球</p>
-                <p className="text-lg text-gray-600">充满智慧地启发你</p>
+                <p className="text-xl font-medium text-purple-600">醍醐灌顶的毛球 充满智慧地启发你</p>
+                <p className="text-lg text-gray-600">
+              </p>
               </div>
               <p className="text-xl text-blue-600 font-medium mt-8">
                 4种不同性格的球球，总有一款适合你
