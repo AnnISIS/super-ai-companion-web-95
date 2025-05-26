@@ -1,11 +1,8 @@
-
 import { ArrowDown, Heart, Users, Zap, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-green-50">
+  return <div className="min-h-screen bg-gradient-to-b from-blue-50 to-green-50">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center px-4 text-center">
         <h1 className="text-7xl md:text-8xl font-light text-gray-800 mb-8 tracking-tight">
@@ -117,16 +114,19 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">
               <div className="space-y-2">
-                <p className="text-xl font-medium text-pink-600">奶声奶气的奶球</p>
-                <p className="text-lg text-gray-600">奶萌可爱地安慰你</p>
+                <p className="text-xl font-medium text-pink-600">奶声奶气的奶球 奶萌可爱地安慰你</p>
+                <p className="text-lg text-gray-600">
+              </p>
               </div>
               <div className="space-y-2">
-                <p className="text-xl font-medium text-yellow-600">天真烂漫的糖球</p>
-                <p className="text-lg text-gray-600">简单用心地爱着你</p>
+                <p className="text-xl font-medium text-yellow-600">天真烂漫的糖球 简单用心地爱着你</p>
+                <p className="text-lg text-gray-600">
+              </p>
               </div>
               <div className="space-y-2">
-                <p className="text-xl font-medium text-gray-600">古灵精怪的煤球</p>
-                <p className="text-lg text-gray-600">不按套路地陪着你</p>
+                <p className="text-xl font-medium text-gray-600">古灵精怪的煤球 不按套路地陪着你</p>
+                <p className="text-lg text-gray-600">
+              </p>
               </div>
               <div className="space-y-2">
                 <p className="text-xl font-medium text-purple-600">醍醐灌顶的毛球</p>
@@ -243,8 +243,6 @@ const Index = () => {
           </Button>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
