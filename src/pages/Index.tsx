@@ -181,7 +181,7 @@ const Index = () => {
             <Card className="transform hover:scale-105 transition-transform shadow-lg">
               <CardContent className="p-8 text-center">
                 <div className="text-3xl font-bold text-orange-600 mb-4">80%</div>
-                <p className="text-gray-700 text-sm">职场压力、快节奏生活、碎片化社交让80%年轻人被孤独感吞噬，而超过60%的人没有合适的倾诉对象</p>
+                <p className="text-gray-700 text-sm">职场压力、快节奏生活、碎片化社交让80%年轻人被孤独感吞噬，超过60%的人没有合适的倾诉对象</p>
               </CardContent>
             </Card>
             <Card className="transform hover:scale-105 transition-transform shadow-lg">
