@@ -1,3 +1,4 @@
+
 import { ArrowDown, Heart, Users, Zap, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -6,7 +7,7 @@ const Index = () => {
   return <div className="min-h-screen bg-gradient-to-b from-blue-50 to-green-50 font-healing">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center px-4 text-center">
-        <h1 className="text-7xl md:text-8xl font-light text-gray-800 mb-8 tracking-tight">
+        <h1 className="text-7xl md:text-8xl font-bold text-gray-800 mb-8 tracking-tight">
           超级球球
         </h1>
         
@@ -16,7 +17,7 @@ const Index = () => {
         </div>
         
         <div className="max-w-3xl space-y-6 mb-12">
-          <h2 className="text-3xl md:text-4xl font-light text-gray-700 leading-relaxed">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-700 leading-relaxed">
             你触手可及的AI疗愈伙伴
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
@@ -37,7 +38,7 @@ const Index = () => {
       <section className="py-20 px-4">
         {/* Section 1 */}
         <div className="max-w-7xl mx-auto mb-32">
-          <h2 className="text-5xl font-light text-center mb-20 text-gray-800">
+          <h2 className="text-5xl font-bold text-center mb-20 text-gray-800">
             超级球球，你的专属AI伙伴
           </h2>
           <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -63,7 +64,7 @@ const Index = () => {
 
         {/* Section 2 */}
         <div className="max-w-7xl mx-auto mb-32">
-          <h2 className="text-5xl font-light text-center mb-20 text-gray-800">
+          <h2 className="text-5xl font-bold text-center mb-20 text-gray-800">
             科技，让陪伴更智能
           </h2>
           <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -86,7 +87,7 @@ const Index = () => {
 
         {/* Section 3 */}
         <div className="max-w-7xl mx-auto mb-32">
-          <h2 className="text-5xl font-light text-center mb-20 text-gray-800">
+          <h2 className="text-5xl font-bold text-center mb-20 text-gray-800">
             技术，让社交更轻松
           </h2>
           <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -109,7 +110,7 @@ const Index = () => {
 
         {/* Section 4 */}
         <div className="max-w-7xl mx-auto mb-32">
-          <h2 className="text-5xl font-light text-center mb-20 text-gray-800">
+          <h2 className="text-5xl font-bold text-center mb-20 text-gray-800">
             球球家族，陪伴你的独一无二
           </h2>
           <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -148,7 +149,7 @@ const Index = () => {
       {/* Statistics Section */}
       <section className="py-20 px-4 bg-white/50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-5xl font-light text-center mb-20 text-gray-800">
+          <h2 className="text-5xl font-bold text-center mb-20 text-gray-800">
             这些，正在不断发生
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -209,7 +210,7 @@ const Index = () => {
       {/* 24 Hour Companion Section */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-5xl font-light mb-20 text-gray-800">
+          <h2 className="text-5xl font-bold mb-20 text-gray-800">
             超级球球，陪伴你的24小时
           </h2>
           <div className="bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 rounded-3xl p-16 shadow-2xl">
@@ -222,7 +223,7 @@ const Index = () => {
       {/* Contact Section */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-5xl font-light text-center mb-20 text-gray-800">
+          <h2 className="text-5xl font-bold text-center mb-20 text-gray-800">
             联系我们
           </h2>
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-3xl p-16 text-center shadow-2xl">
