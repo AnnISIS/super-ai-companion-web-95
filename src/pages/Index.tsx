@@ -1,5 +1,4 @@
 
-
 import { ArrowDown, Heart, Users, Zap, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -264,9 +263,13 @@ const Index = () => {
                 欢迎与我们链接~
               </p>
             </div>
-            <Button size="lg" variant="secondary" className="text-lg px-8 py-4">
-              立即联系我们
-            </Button>
+            <div className="flex justify-center">
+              <img 
+                src="/lovable-uploads/455124a2-b034-47e0-baf3-5783a80b11b3.png" 
+                alt="联系我们微信二维码" 
+                className="w-48 h-48 bg-white rounded-lg p-2"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -274,4 +277,3 @@ const Index = () => {
 };
 
 export default Index;
-
