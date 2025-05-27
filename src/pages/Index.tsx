@@ -1,4 +1,3 @@
-
 import { ArrowDown, Heart, Users, Zap, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -11,9 +10,14 @@ const Index = () => {
           超级球球
         </h1>
         
-        {/* Video Placeholder */}
-        <div className="w-full max-w-4xl aspect-video bg-gradient-to-r from-blue-100 to-purple-100 rounded-3xl mb-12 flex items-center justify-center shadow-2xl">
-          <div className="text-2xl text-gray-600">产品演示视频</div>
+        {/* Video */}
+        <div className="w-full max-w-4xl aspect-video mb-12 rounded-3xl overflow-hidden shadow-2xl">
+          <iframe 
+            src="https://v.qq.com/txp/iframe/player.html?vid=t3091k268j3" 
+            allowFullScreen
+            className="w-full h-full"
+            frameBorder="0"
+          />
         </div>
         
         <div className="max-w-3xl space-y-6 mb-12">
