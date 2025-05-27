@@ -84,11 +84,11 @@ const Index = () => {
                 全天候陪伴的沉浸式疗愈，实现轻松、愉悦、好玩的情绪释放
               </p>
             </div>
-            <div className="rounded-3xl aspect-square flex items-center justify-center shadow-xl overflow-hidden">
+            <div className="rounded-3xl aspect-square flex items-center justify-center shadow-xl overflow-hidden bg-white">
               <img 
                 src="/lovable-uploads/98b9e99f-0579-4190-9825-3e6d191262a4.png" 
                 alt="AI技术展示图" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
@@ -111,11 +111,11 @@ const Index = () => {
                 拥有专属球球主人的心动时刻，告别主动尴尬社交，筛选同频的TA
               </p>
             </div>
-            <div className="rounded-3xl aspect-square flex items-center justify-center shadow-xl overflow-hidden">
+            <div className="rounded-3xl aspect-square flex items-center justify-center shadow-xl overflow-hidden bg-white">
               <img 
                 src="/lovable-uploads/f0741710-f61e-4421-9422-41ff4e955642.png" 
                 alt="社交技术展示图" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
@@ -152,11 +152,11 @@ const Index = () => {
                 4种不同性格的球球，总有一款适合你
               </p>
             </div>
-            <div className="rounded-3xl aspect-square flex items-center justify-center shadow-xl overflow-hidden">
+            <div className="rounded-3xl aspect-square flex items-center justify-center shadow-xl overflow-hidden bg-white">
               <img 
                 src="/lovable-uploads/ed04c495-46db-42da-8029-ddc11c38a0e3.png" 
                 alt="球球家族展示图" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
