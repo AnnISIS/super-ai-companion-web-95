@@ -1,4 +1,5 @@
 
+
 import { ArrowDown, Heart, Users, Zap, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -56,8 +57,12 @@ const Index = () => {
                 在球球的眼中，你就是TA独一无二的存在
               </p>
             </div>
-            <div className="bg-gradient-to-br from-pink-100 to-purple-100 rounded-3xl aspect-square flex items-center justify-center shadow-xl">
-              <Heart className="w-32 h-32 text-pink-400" />
+            <div className="rounded-3xl aspect-square flex items-center justify-center shadow-xl overflow-hidden">
+              <img 
+                src="/lovable-uploads/4132ab00-f27e-4b1d-904e-bfa2e3b7fd10.png" 
+                alt="超级球球产品图" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -79,8 +84,12 @@ const Index = () => {
                 全天候陪伴的沉浸式疗愈，实现轻松、愉悦、好玩的情绪释放
               </p>
             </div>
-            <div className="bg-gradient-to-br from-blue-100 to-cyan-100 rounded-3xl aspect-square flex items-center justify-center shadow-xl">
-              <Zap className="w-32 h-32 text-blue-400" />
+            <div className="rounded-3xl aspect-square flex items-center justify-center shadow-xl overflow-hidden">
+              <img 
+                src="/lovable-uploads/98b9e99f-0579-4190-9825-3e6d191262a4.png" 
+                alt="AI技术展示图" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -102,8 +111,12 @@ const Index = () => {
                 拥有专属球球主人的心动时刻，告别主动尴尬社交，筛选同频的TA
               </p>
             </div>
-            <div className="bg-gradient-to-br from-green-100 to-teal-100 rounded-3xl aspect-square flex items-center justify-center shadow-xl">
-              <Users className="w-32 h-32 text-green-400" />
+            <div className="rounded-3xl aspect-square flex items-center justify-center shadow-xl overflow-hidden">
+              <img 
+                src="/lovable-uploads/f0741710-f61e-4421-9422-41ff4e955642.png" 
+                alt="社交技术展示图" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -139,8 +152,12 @@ const Index = () => {
                 4种不同性格的球球，总有一款适合你
               </p>
             </div>
-            <div className="bg-gradient-to-br from-orange-100 to-red-100 rounded-3xl aspect-square flex items-center justify-center shadow-xl">
-              <Star className="w-32 h-32 text-orange-400" />
+            <div className="rounded-3xl aspect-square flex items-center justify-center shadow-xl overflow-hidden">
+              <img 
+                src="/lovable-uploads/ed04c495-46db-42da-8029-ddc11c38a0e3.png" 
+                alt="球球家族展示图" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -213,9 +230,12 @@ const Index = () => {
           <h2 className="text-5xl font-bold mb-20 text-gray-800">
             超级球球，陪伴你的24小时
           </h2>
-          <div className="bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 rounded-3xl p-16 shadow-2xl">
-            <div className="text-2xl text-gray-600 mb-8">24小时陪伴时光展示</div>
-            <p className="text-lg text-gray-600">从清晨的问候到夜晚的安抚，球球时刻陪伴在你身边</p>
+          <div className="rounded-3xl shadow-2xl overflow-hidden">
+            <img 
+              src="/lovable-uploads/4d0418be-5ba2-47f2-85ad-e76c95eb2f99.png" 
+              alt="24小时陪伴时光展示" 
+              className="w-full h-auto"
+            />
           </div>
         </div>
       </section>
@@ -254,3 +274,4 @@ const Index = () => {
 };
 
 export default Index;
+
