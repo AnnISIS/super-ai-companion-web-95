@@ -61,11 +61,11 @@ const Index = () => {
                 在球球的眼中，你就是TA独一无二的存在
               </p>
             </div>
-            <div className="w-full aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden">
+            <div className="w-full aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden bg-gray-100">
               <img 
                 src="/lovable-uploads/4132ab00-f27e-4b1d-904e-bfa2e3b7fd10.png" 
                 alt="超级球球产品图" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
@@ -88,11 +88,11 @@ const Index = () => {
                 全天候陪伴的沉浸式疗愈，实现轻松、愉悦、好玩的情绪释放
               </p>
             </div>
-            <div className="w-full aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden order-1 lg:order-2">
+            <div className="w-full aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden bg-gray-100 order-1 lg:order-2">
               <img 
                 src="/lovable-uploads/98b9e99f-0579-4190-9825-3e6d191262a4.png" 
                 alt="AI技术展示图" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
@@ -115,11 +115,11 @@ const Index = () => {
                 拥有专属球球主人的心动时刻，告别主动尴尬社交，筛选同频的TA
               </p>
             </div>
-            <div className="w-full aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden">
+            <div className="w-full aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden bg-gray-100">
               <img 
                 src="/lovable-uploads/f0741710-f61e-4421-9422-41ff4e955642.png" 
                 alt="社交技术展示图" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
@@ -156,11 +156,11 @@ const Index = () => {
                 4种不同性格的球球，总有一款适合你
               </p>
             </div>
-            <div className="w-full aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden order-1 lg:order-2">
+            <div className="w-full aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden bg-gray-100 order-1 lg:order-2">
               <img 
                 src="/lovable-uploads/ed04c495-46db-42da-8029-ddc11c38a0e3.png" 
                 alt="球球家族展示图" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
@@ -234,11 +234,11 @@ const Index = () => {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-12 sm:mb-16 lg:mb-20 text-gray-800 px-4">
             超级球球，陪伴你的24小时
           </h2>
-          <div className="rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden">
+          <div className="rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden bg-gray-100">
             <img 
               src="/lovable-uploads/4d0418be-5ba2-47f2-85ad-e76c95eb2f99.png" 
               alt="24小时陪伴时光展示" 
-              className="w-full h-auto"
+              className="w-full h-auto object-contain"
             />
           </div>
         </div>
