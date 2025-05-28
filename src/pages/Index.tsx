@@ -1,3 +1,4 @@
+
 import { ArrowDown, Heart, Users, Zap, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -46,7 +47,7 @@ const Index = () => {
             超级球球，你的专属AI伙伴
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
-            <div className="space-y-4 sm:space-y-6 px-4 lg:px-0">
+            <div className="space-y-4 sm:space-y-6 px-4 lg:px-0 text-center">
               <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
                 软萌、治愈的长毛外观
               </p>
@@ -103,7 +104,7 @@ const Index = () => {
             技术，让社交更轻松
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
-            <div className="space-y-4 sm:space-y-6 px-4 lg:px-0">
+            <div className="space-y-4 sm:space-y-6 px-4 lg:px-0 text-center">
               <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
                 采用最新的AI技术和空间智能技术，实现不依赖传统网络的近距离社交
               </p>
