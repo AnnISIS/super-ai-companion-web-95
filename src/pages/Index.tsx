@@ -1,4 +1,3 @@
-
 import { ArrowDown, Heart, Users, Zap, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -71,13 +70,13 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Section 2 */}
+        {/* Section 2 - 科技，让陪伴更智能 */}
         <div className="max-w-7xl mx-auto mb-16 sm:mb-24 lg:mb-32">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12 sm:mb-16 lg:mb-20 text-gray-800 px-4">
             科技，让陪伴更智能
           </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
-            <div className="space-y-4 sm:space-y-6 px-4 lg:px-0 order-2 lg:order-1">
+          <div className="space-y-8 sm:space-y-12 lg:space-y-16">
+            <div className="space-y-4 sm:space-y-6 px-4 text-center">
               <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
                 依托资深心理学专家20年临床经验，构建AI心理疗愈模型
               </p>
@@ -88,7 +87,7 @@ const Index = () => {
                 全天候陪伴的沉浸式疗愈，实现轻松、愉悦、好玩的情绪释放
               </p>
             </div>
-            <div className="w-full aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden bg-gray-100 order-1 lg:order-2">
+            <div className="w-full max-w-4xl mx-auto aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden bg-gray-100">
               <img 
                 src="/lovable-uploads/98b9e99f-0579-4190-9825-3e6d191262a4.png" 
                 alt="AI技术展示图" 
@@ -125,13 +124,13 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Section 4 */}
+        {/* Section 4 - 球球家族，陪伴你的独一无二 */}
         <div className="max-w-7xl mx-auto mb-16 sm:mb-24 lg:mb-32">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12 sm:mb-16 lg:mb-20 text-gray-800 px-4">
             球球家族，陪伴你的独一无二
           </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
-            <div className="space-y-4 sm:space-y-6 px-4 lg:px-0 order-2 lg:order-1">
+          <div className="space-y-8 sm:space-y-12 lg:space-y-16">
+            <div className="space-y-4 sm:space-y-6 px-4 text-center">
               <div className="space-y-2">
                 <p className="text-lg sm:text-xl font-medium text-pink-600">奶声奶气的奶球 奶萌可爱地安慰你</p>
                 <p className="text-lg text-gray-600">
@@ -156,7 +155,7 @@ const Index = () => {
                 4种不同性格的球球，总有一款适合你
               </p>
             </div>
-            <div className="w-full aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden bg-gray-100 order-1 lg:order-2">
+            <div className="w-full max-w-4xl mx-auto aspect-[4/3] rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden bg-gray-100">
               <img 
                 src="/lovable-uploads/ed04c495-46db-42da-8029-ddc11c38a0e3.png" 
                 alt="球球家族展示图" 
